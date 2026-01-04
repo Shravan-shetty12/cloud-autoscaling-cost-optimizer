@@ -1,10 +1,13 @@
-**# cloud-autoscaling-cost-optimizer
-**
+**# cloud-autoscaling-cost-optimizer**
+
+
 **Problem statement:**
+
 Manual cloud resource management leads to over-provisioning,
 under-utilization, and unnecessary cost.
 
 This project builds a fully automated AWS-based system that:
+
 - Monitors EC2 resource usage
 - Automatically scales infrastructure
 - Identifies low-utilization waste
@@ -13,6 +16,7 @@ This project builds a fully automated AWS-based system that:
 The system follows an Event-Driven Architecture using native AWS services.
 
 **Technologies Used**
+
 - AWS EC2
 - Auto Scaling Groups (ASG)
 - CloudWatch Metrics & Alarms
@@ -21,6 +25,7 @@ The system follows an Event-Driven Architecture using native AWS services.
 - Event-driven monitoring
 
 **Key Features**
+
 ✔ Real-time resource monitoring  
 ✔ Automatic scale-up on high load  
 ✔ Safe scale-down with cooldown protection  
