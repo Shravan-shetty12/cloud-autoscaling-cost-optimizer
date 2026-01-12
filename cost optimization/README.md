@@ -12,6 +12,10 @@ During initial testing, EC2 costs may appear as $0.00 due to billing delay.
 This project accounts for this behavior by using scheduled cost analysis
 instead of real-time cost-based scaling.
 
+Scheduled cost optimization is implemented using Amazon EventBridge and AWS Systems Manager Automation.
+
+Non-production instances are identified via tags and stopped during off-hours, reducing idle compute cost without impacting production workloads.
+
 
 
 
